@@ -1,0 +1,32 @@
+body {
+    background: #c4dce8;
+}
+
+h1 {
+    color: lightcoral;
+}
+
+div {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+    margin: auto;
+    width: 70%;
+
+    text-align: center;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+textarea {
+    width: 500px;
+    height: 100px;
+}
+
+div.box {
+    margin: auto;
+    border: 5px dot-dash saddlebrown;
+}

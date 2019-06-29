@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    {% for s in songs %}
+        <h1>{{ s.title }}</h1>
+        {{ s.artist }}
+        {{ s.genre }}
+        {{ s.lyrics }}
+        {{ s.release }}
+        {{ s.composer }}
+        {{ s.lyricist }}
+        <br>
+    {% endfor %}
+</body>
+</html>

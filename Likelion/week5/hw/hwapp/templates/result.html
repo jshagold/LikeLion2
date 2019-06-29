@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+{% load static %}
+
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{% static 'css/initpage.css' %}">
+    <meta charset="UTF-8">
+    <title>Request</title>
+</head>
+<body>
+<div>
+    <h1>입력받은값</h1>
+    {{fulltext}}
+    <h1>과일바구니</h1>
+    {{list}}
+    <div class="box">
+        {% for i in list %}
+        {% if i == "사과" %}
+        <img src="{% static 'image/apple.jpeg' %}">
+        {% endif %}
+        {% endfor %}
+        <br>
+
+        {% for i in list %}
+        {% if i == "포도" %}
+        <img src="{% static 'image/grape.jpeg' %}">
+        {% endif %}
+        {% endfor %}
+        <br>
+
+        {% for i in list %}
+        {% if i == "오렌지" %}
+        <img src="{% static 'image/orange.jpeg' %}">
+        {% endif %}
+        {% endfor %}
+
+    </div>
+    <br>
+    <a href="{% url 'home' %}">
+        <button>input</button>
+    </a>
+</div>
+</body>
+</html>

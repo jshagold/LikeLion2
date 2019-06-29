@@ -1,0 +1,20 @@
+
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block contents %}
+
+
+    <div>
+        {% for blog in Blog.all %}
+            <div class="container">
+                <p>{{ blog.title }}</p>
+                <p>{{ blog.pub_date }}</p>
+                <p>내용 : <a href="{% url 'detail' blog.id %}">상세내용</a></p>
+                <br>
+            </div>
+        {% endfor %}
+    </div>
+
+{% endblock %}

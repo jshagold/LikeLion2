@@ -1,0 +1,50 @@
+body {
+    color: orangered;
+}
+
+
+h1 {
+    font-size: 50px;
+    color: blueviolet;
+}
+
+
+div {
+    border: 2px solid blueviolet;
+    margin-bottom: 1px;
+}
+
+
+table {
+    border: 1px solid black;
+}
+
+
+tr {
+    border: 1px solid black;
+}
+
+
+td {
+    border: 1px solid blue;
+}
+
+
+
+
+
+
+.black_div {
+    border: 3px solid black;
+    margin-bottom: 30px;
+    width: auto;
+    display: inline-block;
+}
+
+#link {
+    color: skyblue;
+}
+
+#submit {
+    color: blue;
+}

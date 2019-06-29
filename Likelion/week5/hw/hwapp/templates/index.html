@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+{% load static %}
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="{% static 'css/initpage.css' %}">
+</head>
+<body>
+<div>
+    <h1>Hello!!!!!</h1>
+    <p>사과, 오렌지, 포도를 받고싶은 만큼 쓰세요.</p>
+
+    <form action="{% url 'result' %}">
+
+        <textarea name="fulltext"></textarea>
+        <br>
+        <input type="submit" value="count">
+
+    </form>
+
+    <a href="{% url 'about' %}">
+        <button>about</button>
+    </a>
+</div>
+</body>
+</html>
