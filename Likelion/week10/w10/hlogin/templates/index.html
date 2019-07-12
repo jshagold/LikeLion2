@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+{% load static %}
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+
+    <script src="{% static 'index.js' %}" ></script>
+    <title>회언가입</title>
+</head>
+<body>
+
+<h1>Sign Up</h1>
+
+<form>
+    <p>ID</p>
+    <input type="text" size="100" maxlength="20" placeholder="8자이상 20자 이하여야 하고 영문 대소문자, 숫자로만 구성됩니다. 첫글자가 숫자면 안됩니다." id="id">
+    <br>
+    <p>Password</p>
+    <input type="text" size="100" maxlength="20" placeholder="8자이상 20자 이하여야 하고 영문 대소문자, 숫자로만 구성됩니다." id="pw">
+    <br>
+    <p>Repeat Password</p>
+    <input type="text" size="100" maxlength="20" placeholder="Password와 같아야합니다" id="pwr">
+    <br>
+    <input type="submit" value="Sign Up" onclick="signup()">
+
+</form>
+
+</body>
+</html>
