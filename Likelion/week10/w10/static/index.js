@@ -9,11 +9,11 @@ function signup() {
         alert("id를 입력해 주세요.");
         return true;
     }
-    if(pw==""){
+    else if(pw==""){
         alert("pw를 입력해 주세요.");
         return true;
     }
-    if(pwr==""){
+    else if(pwr==""){
         alert("pwr를 입력해 주세요.");
         return true;
     }
@@ -24,12 +24,12 @@ function signup() {
         return true;
     }
 
-    if(pw_check.test(pw)==false){
+    else if(pw_check.test(pw)==false){
         alert("password 형식을 맞춰주세요.");
         return true;
     }
 
-    if(pw != pwr){
+    else if(pw != pwr){
         alert("password와 동일하게 입력하세요")
         return true;
     }
