@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c618ec5a-96ee-435b-9b79-66e7abb1077b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../week10/w10/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week10/w10/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week11/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week11/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../first_sem_finalhw/hw/ericainfo/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../first_sem_finalhw/hw/ericainfo/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../first_sem_finalhw/hw/ericainfo/templates/map.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../first_sem_finalhw/hw/ericainfo/templates/map.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../first_sem_finalhw/hw/static/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../first_sem_finalhw/hw/static/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../first_sem_finalhw/hw/static/css/map.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../first_sem_finalhw/hw/static/css/map.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week5/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week5/hw/hwapp/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../week5/hw/hwapp/templates/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
