@@ -1,0 +1,14 @@
+header {
+    background-image: url("../img/hanyange.jpeg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+}
+
+.card {
+    width: 30%;
+    text-align: center;
+    margin: auto;
+
+    float: left;
+}

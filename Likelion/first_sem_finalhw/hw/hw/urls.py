@@ -20,5 +20,8 @@ import ericainfo.views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', ericainfo.views.index, name='index'),
-    path('/map', ericainfo.views.map, name='map'),
+    path('map', ericainfo.views.map, name='map'),
+    path('restaurants', ericainfo.views.restaurants, name='restaurants'),
+    path('facilities', ericainfo.views.facilities, name='facilities'),
+    path('test', ericainfo.views.test, name='test'),
 ]

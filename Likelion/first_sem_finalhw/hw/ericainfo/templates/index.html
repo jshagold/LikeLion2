@@ -15,9 +15,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
             integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
             crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="{% static 'css/index2.css' %}">
+    <script src="{% static 'js/index2.js' %}"></script>
 
-    <link rel="stylesheet" href="{% static 'css/index.css' %}">
-    <script src="{% static 'js/index.js' %}"></script>
     <title>안녕하세요</title>
 </head>
 <body>
@@ -36,11 +36,31 @@
             <li class="nav-item">
                 <a class="nav-link" href="{% url 'map' %}">MAP</a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{% url 'restaurants' %}">음식점</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{% url 'facilities' %}">편의시설</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{% url 'test' %}">test</a>
+            </li>
         </ul>
     </div>
 </nav>
-<footer>
-foot
-</footer>
+
+<article>
+
+    <div class="card" onclick="move_map()">
+        지도
+    </div>
+    <div class="card" onclick="move_rest()">
+        근처 밥집
+    </div>
+    <div class="card" onclick="move_faci()">
+        편의시설
+    </div>
+</article>
+
 </body>
 </html>
